@@ -1,6 +1,6 @@
 # Reinforcement Learning Final Project - MCTS & AlphaZero-Style Self-Play
 
-**Final Project (M.Sc. Data Science, HIT). Monte Carlo Tree Search implemented from scratch for two-player board games — Tic-Tac-Toe as the exactly-solved verification environment, a compact 4×5 Connect-Four as the main one — then extended into an AlphaZero-style self-play agent: a policy-value network guiding PUCT search in place of random rollouts.**
+**Final Project (Grade 95, M.Sc. Data Science, HIT). Monte Carlo Tree Search implemented from scratch for two-player board games — Tic-Tac-Toe as the exactly-solved verification environment, a compact 4×5 Connect-Four as the main one — then extended into an AlphaZero-style self-play agent: a policy-value network guiding PUCT search in place of random rollouts.**
 
 ## Headline Results
 - **Tic-Tac-Toe, equal 50-simulation budget:** network-guided search beats pure MCTS **18–0** head-to-head (22 draws), cuts losses vs. a perfect player from **21/60 to 5/60**, and lifts the optimal-move rate from 0.88 to 1.00.
